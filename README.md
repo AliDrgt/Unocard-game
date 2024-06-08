@@ -28,5 +28,38 @@ A simple Uno card game implementation in Python.
 ## Usage
 
 Run the game using the following command:
-```sh
-python uno_card_game.py
+    ```sh
+    python uno_card_game.py
+    ```
+
+## How to Play
+
+- The game starts with each player being dealt 7 cards.
+- A card from the deck is placed face-up to start the game.
+- Players take turns playing a card from their hand that matches the color or number of the face-up card.
+- If a player cannot play a card, they draw a card from the deck.
+- The game continues until one player has no cards left. The player who runs out of cards first wins.
+
+## Code Overview
+
+### `UnoCards` Class
+
+Represents an individual Uno card with a color and a number. Provides methods to check if a card can be played based on the top card of the discard pile.
+
+### `CollectionOfUnoCards` Class
+
+Represents a collection of Uno cards, such as a deck or a player's hand. Provides methods to add, remove, shuffle, and manage cards.
+
+### `Uno` Class
+
+Manages the gameplay, including dealing cards, handling turns, and determining the winner.
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss any changes.
+
+
+## Acknowledgments
+
+This project was created by Ali Durgut.
